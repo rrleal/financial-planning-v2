@@ -16,7 +16,7 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
-                    <ContentPageHeader title="Painel de controle"></ContentPageHeader>
+                    <slot></slot>
 
                 </div>
                 <!-- /.container-fluid -->
@@ -37,7 +37,6 @@
 
     import Sidebar from './Sidebar';
     import Navbar from './Navbar';
-    import ContentPageHeader from './ContentPageHeader';
 
     export default {
 
@@ -45,8 +44,7 @@
 
         components: {
             Sidebar,
-            Navbar,
-            ContentPageHeader
+            Navbar
         },
 
         props: {}

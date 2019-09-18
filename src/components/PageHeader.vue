@@ -11,7 +11,7 @@
 
     export default {
 
-        name: "ContentPageHeader",
+        name: "PageHeader",
 
         props: ['title']
 
